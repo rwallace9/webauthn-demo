@@ -39,7 +39,7 @@ $('#login').submit(function(event) {
        return;
     }
 
-    let formBody = {username}; 
-    let jFormBody = JSON.stringify(formBody);
-    window.location.assign("f5access://Fido2_done?" + jFormBody);
+    // let formBody = {username}; 
+    // let jFormBody = JSON.stringify(formBody);
+    window.location.assign("f5access://Fido2_done?username=" + username);
 })
