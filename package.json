@@ -1,9 +1,16 @@
 {
-  "name": "webauthn-tutorial",
-  "version": "0.0.1",
-  "description": "",
-  "main": "app.js",
+  "name": "webauthn-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Webauthn Node.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "ejs": "^3.1.5",
     "@fidm/x509": "^1.2.0",
     "base64url": "^2.0.0",
     "body-parser": "^1.15.2",
@@ -13,15 +20,11 @@
     "express": "^4.15.4",
     "iso-3166-1": "^1.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fido-alliance/"
-  },
-  "private": true,
-  "author": "Yuriy Ackermann <yuriy@fidoalliance.org> (https://jeman.de/)",
-  "bugs": {
-    "url": "https://github.com/fido-alliance//issues",
-    "email": "yuriy@fidoalliance.org"
-  },
-  "homepage": "https://github.com/fido-alliance/#readme"
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "webauthn"
+  ],
+  "license": "MIT"
 }
